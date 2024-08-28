@@ -1,0 +1,12 @@
+What we just did was-
+1.  changed the outDir of the typescript to "./dist"
+2. changed the rootDir to "./src"
+3.
+
+netstat -ano | findstr :8080 ---- this to check if the port is being used or not
+
+
+GameManager ma k k gariyo ?
+- games variable contains array of Game object.
+
+addUser, removeUser and handleMessage functions are saved.

@@ -1,0 +1,19 @@
+So this websocket thing is cool. so the server creates a new web socket with 
+each of the user and we save this socket to the array of web sockets ,i.e players
+
+when we need to add a new player, we add that web socket to the players--
+
+when we need to remove a socket- we remove it from the list of players..
+
+when handling messages- we cmade it private because,, maybe we call it inside addPlayer like :
+
+    function addPlayer(socket:WebSocket){
+        socket.handleMessage(socket)
+    }
+
+-----------------
+
+socket.on("message",(data)=> {
+    
+})  
+=> the one method is set up event listener to a certain event--

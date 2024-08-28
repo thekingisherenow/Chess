@@ -1,0 +1,18 @@
+INITIAL SYSTEM DESIGN :
+
+
+games = [ Game ]
+so Game is an object
+
+Game = {participant 1, 
+	participant 2,
+	state,
+	moves([e4 t1,e5 t2]),
+	startTime 
+}
+
+
+
+Whenever there is a move that reaches a server , 1. you need to do validations 2. you need to check if there is a check or a checkmate.
+
+Not foolproof system because if the server ever dies , you loose all of the information and you lose everything that you had created in the memory and you canot recreate the game
